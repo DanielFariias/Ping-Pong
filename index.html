@@ -1,0 +1,22 @@
+<html>
+
+<body>
+    <script src="js.js"></script>
+    <canvas id="folha" width="600" height="500"></canvas>
+
+    <script>
+
+        window.onload = function () {
+            iniciar()
+
+            setInterval(principal, 1000 / 60)
+        }
+
+        folhaDesenho = addEventListener('mousemove', function (e) {
+            posicaoJogador1 = e.clientY - alturaRaquete / 2
+        })
+
+    </script>
+</body>
+
+</html>
